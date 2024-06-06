@@ -18,11 +18,11 @@ public class Assignment1 {
 			if (alphanumaricstring.replaceAll("[0-9]", "").length() > 0) {
 				for (char eachchar : alphanumaricstring.replaceAll("[^0-9]", "").toCharArray()) {
 					result = result + eachchar -'0' ;
-				}
-				return result;
-			} else {
-				return result;
+					
+					
+				}				
 			}
+			return result;
 		}
 	}
 
